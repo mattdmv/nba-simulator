@@ -10,3 +10,22 @@ Also, this season's games are played without crowds, so impact of homecourt coul
 **used libraries:** random, pandas, numpy, nba_api
 
 ## How to use script
+**1.** Open Command Prompt or Anaconda Prompt.
+
+**2.** Navigate to directory containing simulator_script.py (in my case C:\Users\Korisnik\git_workspace\nba_simulator).
+![](https://raw.githubusercontent.com/mattdmv/nba_simulator/main/guidebook/2.JPG)
+
+**3.** Type command "python simulator_script.py" and press **Enter** to run the script.
+![](https://raw.githubusercontent.com/mattdmv/nba_simulator/main/guidebook/3.JPG)
+
+**4.** Input home team name abbreviation ('LAL' in the example stands for Los Angeles Lakers) and press **Enter**.
+![](https://raw.githubusercontent.com/mattdmv/nba_simulator/main/guidebook/4.JPG)
+
+**5.** Input away team name abbreviation ('NYK' in the example stands for New York Knicks) and press **Enter**.
+![](https://raw.githubusercontent.com/mattdmv/nba_simulator/main/guidebook/5.JPG)
+
+**6.** Input number of simulations you wish to run and press **Enter**.
+![](https://raw.githubusercontent.com/mattdmv/nba_simulator/main/guidebook/6.JPG)
+
+**7.** The script will do the rest and calculate winning percentages for both teams.
+![](https://raw.githubusercontent.com/mattdmv/nba_simulator/main/guidebook/7.JPG)
