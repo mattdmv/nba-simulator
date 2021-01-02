@@ -91,9 +91,9 @@ class MatchupSimulator:
             elif gm == -1:
                 team2win +=1
             else: tie +=1 
-        print(self.Team1.TeamName + ' Win ', team1win/(team1win+team2win+tie),'%')
-        print(self.Team2.TeamName + ' Win ', team2win/(team1win+team2win+tie),'%')
-        print('Tie ', tie/(team1win+team2win+tie), '%')
+        print(self.Team1.TeamName + ' Win ', round((team1win/(team1win+team2win+tie)*100),2),'%')
+        print(self.Team2.TeamName + ' Win ', round((team2win/(team1win+team2win+tie)*100),2),'%')
+        print('Tie ', round((tie/(team1win+team2win+tie)*100),2), '%')
         print('Number of Simulations: ',number_simulations)
         #can see all results using self.results
         self.results = gamesout
